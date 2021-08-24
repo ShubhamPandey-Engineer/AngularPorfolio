@@ -1,0 +1,22 @@
+.contact-comp{
+    margin: 2rem;
+}
+.contact-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.contact-box button{
+    margin:auto;
+}
+
+.contact-head{
+    letter-spacing: 1.5px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.contact-btn{
+    background-color: rgba(0, 0, 0, 0.719);
+
+}

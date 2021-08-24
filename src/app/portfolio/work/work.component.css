@@ -1,0 +1,42 @@
+.skill-tab{
+    background: var(--pri-bg);
+    color:#FFF;
+  }
+  
+
+
+  .my-work{
+  }
+  .pro-name{
+    width: 100%;
+    display: block;
+    font-weight: bold;
+    color:var(--pri-color);
+    text-align: center;
+    letter-spacing: 2px;
+  }
+
+  .skill-label{
+    color: var(--sec-bg);
+    font-size: .8rem;
+    font-weight: bold;
+  }
+  .toggle-skill{
+    font-size: 1.5rem;
+  }
+
+  .pro-desc{
+    color:var(--sec-bg);
+    font-weight: bold;
+  }
+  .pro-skills{
+    margin:1.5rem;
+  }
+
+  .pro-name{
+    color: var(--sec-bg);
+  }
+
+  .view-btn{
+    color: var(--pri-bg);
+  }

@@ -1,0 +1,67 @@
+@keyframes shake {
+    from{
+   transform: rotate(180deg);
+    }
+
+    to{
+        transform: translateX(20px);
+
+    }
+
+}
+
+.skill{
+    border-radius: 8px;
+    animation:  2s .4s infinite ease-in-out;
+    display: flex;
+}
+
+
+.skills-box{
+    justify-content: space-between;
+}
+
+.skill img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.part-one{
+    height:100%;
+    width:50%;
+    border-radius:20px;
+
+}
+.part-two{
+    height:100%;
+    width:50%;
+    border-radius:  20px;
+
+}
+
+
+
+
+.frameworks , .techs , .databases , .versions{
+    padding: 2rem;
+    margin: 1rem;
+
+}
+mat-card-title{
+    color: var(--pri-bg);
+}
+mat-card{
+    background-color: rgba(0, 0, 0, 0.719);
+}
+
+mat-card li{
+    color:#FFF;
+list-style: none;
+line-height: 2rem;
+}
+
+mat-card ul{
+    padding: 1rem;
+}
+

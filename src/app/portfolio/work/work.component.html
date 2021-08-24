@@ -1,0 +1,39 @@
+
+<section class="work-comp">
+    <div class="row d-flex ">
+<div class="col-4  my-work" style="margin:5px"  *ngFor="let project of projectArray">
+    <mat-accordion>
+        <mat-expansion-panel  class="d-block m-2">
+
+          <mat-expansion-panel-header >
+            
+            <mat-panel-title class="pro-name ">
+
+              {{project.name}}
+            </mat-panel-title>
+          
+            </mat-expansion-panel-header>
+            
+            <mat-panel-description class="pro-desc m-1"  >
+              {{project.desc}}
+              </mat-panel-description>
+
+          <div class="pro-skills">
+              <h4 class="skill-label">Skills :</h4>
+              <div class="d-flex m-1">
+                <mat-chip-list  aria-label="Fish selection">
+                    <mat-chip class="skill-tab" *ngFor="let skill of project.skills">{{skill}}</mat-chip>
+                  </mat-chip-list>
+                  
+              </div>
+          </div>
+
+          <div class="m-auto m-1">
+            <a  target="_blank" href={{project.url}}>
+              <button mat-raised-button  class="view-btn">view</button>
+            </a>
+          </div>
+        </mat-expansion-panel>
+        </mat-accordion>
+</div></div>
+</section>
