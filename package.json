@@ -3,16 +3,16 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start": "node server.js",
     "heroku-postbuild": "ng build --prod",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
   },
-  "engines":{
-  "node":"16.6.2",
-  "npm":"6.14.13"
+  "engines": {
+    "node": "16.6.2",
+    "npm": "6.14.13"
   },
   "private": true,
   "dependencies": {
@@ -26,8 +26,10 @@
     "@angular/platform-browser": "~11.2.6",
     "@angular/platform-browser-dynamic": "~11.2.6",
     "@angular/router": "~11.2.6",
+    "express": "^4.17.1",
     "rxjs": "~6.6.0",
     "tslib": "^2.0.0",
+    "typescript": "~6.14.13",
     "zone.js": "~0.11.3"
   },
   "devDependencies": {
