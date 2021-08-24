@@ -14,6 +14,7 @@ export class WorkComponent implements OnInit {
     name:"",
     desc:"",
     skills:[""],
+    features:[""],
     url:""
 
   }];
@@ -27,25 +28,28 @@ export class WorkComponent implements OnInit {
       name:'Blog App',
       desc:"A web application using which a users could crete a blog.",
       skills:["HTML5" ,"CSS3","JavaScript","Bootstrap 4" ,"Express JS" ,"Node JS","MongoDB atlas"],
+      features:['Like functunality' , 'CRUD operation' , 'JWT authorization'],
       url:"https://myblog-mongo.herokuapp.com/"
     },
     {
       name:'Covid-19 stats',
       desc:"Web application that shows the current statistics of COVID-19 using rest API's",
       skills:["HTML5" ,"CSS3","JavaScript","Bootstrap 4"  ],
+      features:['Restful API n\'s','Responsive design'],
       url:"cdc"
     },
     {
       name:'Twitter Light app',
       desc:"This application is a light version of twitter.",
       skills:["HTML5" ,"CSS3","JavaScript","Bootstrap 4" ,"MVC5", "Angular","MVC Web API", "My SQL"],
-
+        features:[],
       url:"cdc"
     },
     {
       name:'Title 1',
       desc:"dcjndjdjdnjcdnj",
       skills:["dcdc","ccd"],
+      features:[],
 
       url:"cdc"
     }

@@ -1,7 +1,7 @@
 
 <section class="work-comp">
     <div class="row d-flex ">
-<div class="col-4  my-work" style="margin:5px"  *ngFor="let project of projectArray">
+<div class="col-4  my-work"  *ngFor="let project of projectArray">
     <mat-accordion>
         <mat-expansion-panel  class="d-block m-2">
 
@@ -27,6 +27,17 @@
                   
               </div>
           </div>
+
+
+          <div class="pro-features">
+            <h4 class="skill-label">Features :</h4>
+            <div class="d-flex m-1">
+              <mat-chip-list  aria-label="Fish selection">
+                  <mat-chip class="skill-tab" *ngFor="let feature of project.features">{{feature}}</mat-chip>
+                </mat-chip-list>
+                
+            </div>
+        </div>
 
           <div class="m-auto m-1">
             <a  target="_blank" href={{project.url}}>
