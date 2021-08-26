@@ -6,11 +6,16 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
+.linkedin-icon{
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
 .contact-box button{
     margin:auto;
 }
 
 .contact-head{
+    color: var(--pri-bg);
     letter-spacing: 1.5px;
     font-weight: bold;
     text-align: center;
@@ -19,4 +24,10 @@
 .contact-btn{
     background-color: rgba(0, 0, 0, 0.719);
 
+}
+
+
+.contact-btn:hover{
+    color: var(--pri-bg);
+    transition: all .5s ease-in-out;
 }

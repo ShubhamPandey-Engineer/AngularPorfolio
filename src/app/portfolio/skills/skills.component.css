@@ -12,7 +12,6 @@
 
 .skill{
     border-radius: 8px;
-    animation:  2s .4s infinite ease-in-out;
     display: flex;
 }
 
@@ -53,6 +52,8 @@ mat-card-title{
 }
 mat-card{
     background-color: rgba(0, 0, 0, 0.719);
+    text-align: center;
+    border-radius: 12px  25%;
 }
 
 mat-card li{
