@@ -89,10 +89,9 @@ section{
        width: 100%;
    }
 
-   
+
 .navbar-flex{
     display: flex;
-    flex-wrap: wrap;
     flex-direction: column;
 }
 
